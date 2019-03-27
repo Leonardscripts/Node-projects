@@ -1,9 +1,9 @@
 {
   "name": "web-projects",
   "version": "1.0.0",
-  "description": "Buisness portfolio",
+  "description": "Fullstack web developer long island",
   "main": "index.js",
-  "homepage": "https://leonardscripts.github.io/Business-ortfolio",
+  "homepage": "https://leonardscripts.github.io/Business-Portfolio",
   "scripts": {
     "sass": "node-sass -w scss / -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
