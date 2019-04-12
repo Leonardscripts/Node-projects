@@ -57,14 +57,14 @@
       height: 230px;
       background: url("../img/portrait.jpg");
       border-radius: 40%;
-      border: solid 3px #9e0725; }
+      border: solid 3px #a30727; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #9e0725; }
+      color: #a30727; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link.hover {
-      color: #9e0725; }
+      color: #a30727; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -141,7 +141,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #9e0725; }
+  color: #a30727; }
 
 main {
   padding: 4rem;
@@ -151,7 +151,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #9e0725;
+        color: #a30727;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -168,12 +168,12 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 40%;
-  border: #9e0725 5px solid; }
+  border: #a30727 5px solid; }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: #9e0725 4px solid;
+  border-bottom: #a30727 4px solid;
   text-align: center; }
 
 .job-1 {
@@ -188,13 +188,13 @@ main {
 
 .job-3 {
   grid-area: job3;
-  border-bottom: #9e0725 3px solid;
+  border-bottom: #a30727 3px solid;
   text-align: center; }
 
 .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #9e0725 5px solid; }
+  border-bottom: #a30727 5px solid; }
 
 .projects {
   display: grid;
@@ -205,7 +205,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #9e0725;
+      border-color: #a30727;
       transition: all 0.5s ease-out; }
 
 .container {
@@ -215,10 +215,10 @@ main {
   padding: 1em;
   border-radius: 60px;
   padding: 0.5rem 1.5rem;
-  background: #9e0725;
-  color: set-text-color(#9e0725); }
+  background: #a30727;
+  color: set-text-color(#a30727); }
   .container span {
-    color: set-text-color(#9e0725); }
+    color: set-text-color(#a30727); }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -226,8 +226,8 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #9e0725;
-    color: set-text-color #9e0725; }
+    background: #a30727;
+    color: set-text-color #a30727; }
 
 .btn-dark {
   background: black;
