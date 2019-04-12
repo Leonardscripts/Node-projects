@@ -173,6 +173,14 @@ ul {
   box-shadow: 0 0 20px 0 rgba darkgray;
   border-radius: 60px;
 }
+.wrapper > * {
+  padding: 1em;
+}
+
+.company-info {
+  background: lightslategrey;
+  border-radius: 60px;
+}
 
 // Button Styles
 .btn {

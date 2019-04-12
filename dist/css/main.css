@@ -236,6 +236,13 @@ ul {
   box-shadow: 0 0 20px 0 rgba darkgray;
   border-radius: 60px; }
 
+.wrapper > * {
+  padding: 1em; }
+
+.company-info {
+  background: lightslategrey;
+  border-radius: 60px; }
+
 .btn, .btn-dark, .btn-light {
   display: block;
   padding: 0.5rem 1rem;
