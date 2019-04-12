@@ -57,14 +57,14 @@
       height: 230px;
       background: url("../img/portrait.jpg");
       border-radius: 40%;
-      border: solid 3px #dc143c; }
+      border: solid 3px #c21134; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #dc143c; }
+      color: #c21134; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link.hover {
-      color: #dc143c; }
+      color: #c21134; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -140,7 +140,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #dc143c; }
+  color: #c21134; }
 
 main {
   padding: 4rem;
@@ -150,7 +150,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #dc143c;
+        color: #c21134;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -167,12 +167,12 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 40%;
-  border: #dc143c 5px solid; }
+  border: #c21134 5px solid; }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: #dc143c 4px solid;
+  border-bottom: #c21134 4px solid;
   text-align: center; }
 
 .job-1 {
@@ -187,13 +187,13 @@ main {
 
 .job-3 {
   grid-area: job3;
-  border-bottom: #dc143c 3px solid;
+  border-bottom: #c21134 3px solid;
   text-align: center; }
 
 .job {
   background: #515151;
   padding: 0.5rem;
-  border-bottom: #dc143c 5px solid; }
+  border-bottom: #c21134 5px solid; }
 
 .projects {
   display: grid;
@@ -204,7 +204,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #dc143c;
+      border-color: #c21134;
       transition: all 0.5s ease-out; }
 
 .boxes {
@@ -221,10 +221,10 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #dc143c;
-      color: set-text-color(#dc143c); }
+      background: #c21134;
+      color: set-text-color(#c21134); }
       .boxes div:hover span {
-        color: set-text-color(#dc143c); }
+        color: set-text-color(#c21134); }
 
 .btn, .btn-dark, .btn-light {
   display: block;
@@ -232,8 +232,8 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #dc143c;
-    color: set-text-color #dc143c; }
+    background: #c21134;
+    color: set-text-color #c21134; }
 
 .btn-dark {
   background: black;
