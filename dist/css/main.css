@@ -212,13 +212,29 @@ main {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
   padding: 1em;
   border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff;
   padding: 0.5rem 1.5rem;
   background: #a30727;
   color: set-text-color(#a30727); }
   .container span {
     color: set-text-color(#a30727); }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.brand {
+  text-align: center; }
+
+.brand span {
+  color: #444; }
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba darkgray;
+  border-radius: 60px; }
 
 .btn, .btn-dark, .btn-light {
   display: block;
