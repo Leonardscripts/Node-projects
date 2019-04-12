@@ -146,14 +146,12 @@ main {
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-
-  &:hover {
-    padding: 0.5rem 1.5rem;
-    background: $secondary-color;
+  border-radius: 60px;
+  padding: 0.5rem 1.5rem;
+  background: $secondary-color;
+  color: set-text-color($secondary-color);
+  span {
     color: set-text-color($secondary-color);
-    span {
-      color: set-text-color($secondary-color);
-    }
   }
 }
 
