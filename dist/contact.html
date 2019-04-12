@@ -10,6 +10,10 @@
       integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
 
     <link rel="stylesheet" href="css/main.css" />
     <title>Contact Me</title>
@@ -59,13 +63,13 @@
       </h1>
       <div class="container">
         <h1 class="brand"><span>Stacked</span> WebApps</h1>
-        <div class="wrapper">
+        <div class="wrapper animated rotateIn">
           <div class="company-info">
             <h3>Located in</h3>
             <ul>
-              <li>Commack,Long island</li>
-              <li>(631)487-2581</li>
-              <li>mleonard2590@gmail.com</li>
+              <li><i class="fa fa-road"> </i> Commack,Long island</li>
+              <li><i class="fa fa-phone"> </i> (631)487-2581</li>
+              <li><i class="fa fa-envelope"> </i> mleonard2590@gmail.com</li>
             </ul>
           </div>
           <div class="contact">
@@ -87,11 +91,11 @@
                 <label>Phone Number</label>
                 <input type="text" name="phone" />
               </p>
-              <p>
+              <p class="full">
                 <label>Message</label>
-                <textarea name="message" rows="S"></textarea>
+                <textarea name="message" rows="5"></textarea>
               </p>
-              <p>
+              <p class="full">
                 <button>Submit</button>
               </p>
             </form>
