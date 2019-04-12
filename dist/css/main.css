@@ -208,24 +208,17 @@ main {
       border-color: #c21134;
       transition: all 0.5s ease-out; }
 
-.boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 1rem; }
-  .boxes div {
-    font-size: 2rem;
-    border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
-    margin-bottom: 3rem;
-    transition: all 0.5s ease-out; }
-    .boxes div:hover {
-      padding: 0.5rem 1.5rem;
-      background: #c21134;
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em; }
+  .container:hover {
+    padding: 0.5rem 1.5rem;
+    background: #c21134;
+    color: set-text-color(#c21134); }
+    .container:hover span {
       color: set-text-color(#c21134); }
-      .boxes div:hover span {
-        color: set-text-color(#c21134); }
 
 .btn, .btn-dark, .btn-light {
   display: block;
