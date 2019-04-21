@@ -14,16 +14,5 @@
     "gh-pages": "2.0.1",
     "node-sass": "4.11.0",
     "npm": "6.5.0"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Leonardscripts/Business-Portfolio.git"
-  },
-  "keywords": [
-    "nodemail"
-  ],
-  "bugs": {
-    "url": "https://github.com/Leonardscripts/Business-Portfolio/issues"
   }
 }
