@@ -15,7 +15,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
     />
 
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="dist/css/main.css" />
     <title>Contact Me</title>
   </head>
 
@@ -74,7 +74,8 @@
           </div>
           <div class="contact">
             <h3>Email Me</h3>
-            <form>
+            {{ msg }}
+            <form method="POST" action="send">
               <p>
                 <label>Name</label>
                 <input type="text" name="name" />
@@ -96,7 +97,7 @@
                 <textarea name="message" rows="5"></textarea>
               </p>
               <p class="full">
-                <button>Submit</button>
+                <button type="submit">Submit</button>
               </p>
             </form>
           </div>
