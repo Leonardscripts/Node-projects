@@ -18,7 +18,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.send("hello");
+  res.render("contact");
 });
 
 app.listen(3000, () => console.log("Server started..."));
