@@ -2,7 +2,7 @@
   "name": "web-projects",
   "version": "1.0.0",
   "description": "Fullstack web developer long island",
-  "main": "app.js",
+  "main": "node app.js",
   "homepage": "https://leonardscripts.github.io/Business-Portfolio",
   "scripts": {
     "sass": "node-sass -w scss / -o dist/css/ --recursive",
