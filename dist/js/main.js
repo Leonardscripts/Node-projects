@@ -34,20 +34,20 @@ function toggleMenu() {
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyDVFCwbHHZX3z6PTMcN2eqFPDWsM0qW5HA",
-  authDomain: "my-form-bd622.firebaseapp.com",
-  databaseURL: "https://my-form-bd622.firebaseio.com",
-  projectId: "my-form-bd622",
-  storageBucket: "my-form-bd622.appspot.com",
-  messagingSenderId: "1058457675751"
+  apiKey: "AIzaSyAOI0C50WpPkJj8WEXmaXlaasfh6_IOBg0",
+  authDomain: "contact-6359e.firebaseapp.com",
+  databaseURL: "https://contact-6359e.firebaseio.com",
+  projectId: "contact-6359e",
+  storageBucket: "contact-6359e.appspot.com",
+  messagingSenderId: "131417728501"
 };
 firebase.initializeApp(config);
 
 // Reference messaages collection
-var messaagesRef = firebase.database().ref("messages");
+var messagesRef = firebase.database().ref("messages");
 
 // Listen for for submit
-document.getElementById("contactForm").addEventListener("submit, submitForm");
+document.getElementById("contactForm").addEventListener("submit", submitForm);
 
 // Submit form
 function submitForm(e) {
