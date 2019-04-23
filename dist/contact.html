@@ -75,26 +75,26 @@
           <div class="contact">
             <h3>Email Me</h3>
 
-            <form method="POST" action="send">
+            <form id="contactform" method="POST" action="send">
               <p>
                 <label>Name</label>
-                <input type="text" name="name" />
+                <input type="text" name="name" id="name" />
               </p>
               <p>
                 <label>Company</label>
-                <input type="text" name="Company" />
+                <input type="text" name="company" id="company" />
               </p>
               <p>
                 <label>Email Address</label>
-                <input type="email" name="email" />
+                <input type="text" name="email" id="email" />
               </p>
               <p>
                 <label>Phone Number</label>
-                <input type="text" name="phone" />
+                <input type="text" name="phone" id="phone" />
               </p>
               <p class="full">
                 <label>Message</label>
-                <textarea name="message" rows="5"></textarea>
+                <textarea name="message" rows="5" id="message"></textarea>
               </p>
               <p class="full">
                 <button type="submit">Submit</button>
@@ -108,7 +108,7 @@
     <footer id="main-footer">
       Copyright &copy; 2018 all rights reserved
     </footer>
-
+    <script src="https://www.gstatic.com/firebasejs/5.10.0/firebase.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
