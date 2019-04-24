@@ -9,7 +9,7 @@
             crossorigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
 
-      <link rel="stylesheet" href="css/main.css" />
+      <link rel="stylesheet" href="dist/css/main.css" />
       <title>Contact Me</title>
 </head>
 
@@ -73,8 +73,9 @@
                         </div>
                         <div class="contact">
                               <h3>Email Me</h3>
-
+                              {{msg}}
                               <form method="POST" action="send">
+
                                     <p>
                                           <label>Name</label>
                                           <input type="text" name="name" />
@@ -108,7 +109,7 @@
             Copyright &copy; 2018 all rights reserved
       </footer>
 
-      <script src="js/main.js"></script>
+
 </body>
 
 </html>
