@@ -9,7 +9,7 @@
             crossorigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
 
-      <link rel="stylesheet" href="dist/css/main.css" />
+      <link rel="stylesheet" href="css/main.css" />
       <title>Contact Me</title>
 </head>
 
@@ -65,32 +65,35 @@
                                     <li>
                                           <i class="fa fa-road"> </i> Commack,Long island</li>
                                     <li>
-                                          <i class="fa fa-phone"> </i> (631)487-2581</li>
+                                          <i class="fa fa-phone"> </i> Connect through Email for Number
+                                    </li>
                                     <li>
                                           <i class="fa fa-envelope"> </i> mleonard2590@gmail.com</li>
                               </ul>
                         </div>
                         <div class="contact">
                               <h3>Email Me</h3>
-                              {{msg}}
-                              <form method="POST" action="send">
+
+                              <form id="contactForm" method="POST" action="send">
                                     <p>
                                           <label>Name</label>
-                                          <input type="text" name="name" /> </p>
+                                          <input type="text" name="name" id="name" />
+                                    </p>
                                     <p>
-                                          <label>Company
-                                                </label <input type="text" name="company" />
+                                          <label>Company</label>
+                                          <input type="text" name="company" id="company" />
                                     </p>
                                     <p>
                                           <label>Email Address</label>
-                                          <input type="email" name="email" />
+                                          <input type="text" name="email" id="email" />
                                     </p>
                                     <p>
                                           <label>Phone Number</label>
-                                          <input type="text" name="phone" />
-                                    </p <p class="full">
-                                    <label>Message</label>
-                                    <textarea name="message" rows="5"></textarea>
+                                          <input type="text" name="phone" id="phone" />
+                                    </p>
+                                    <p class="full">
+                                          <label>Message</label>
+                                          <textarea name="message" rows="5" id="message"></textarea>
                                     </p>
                                     <p class="full">
                                           <button type="submit">Submit</button>
@@ -104,8 +107,8 @@
       <footer id="main-footer">
             Copyright &copy; 2018 all rights reserved
       </footer>
-
-
+      <script src="https://www.gstatic.com/firebasejs/5.0.0/firebase.js"></script>
+      <script src="js/main.js"></script>
 </body>
 
 </html>
