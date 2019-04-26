@@ -1,25 +1,23 @@
 const express = require("express");
 const bodyParser = require("body-parser");
-const exphbs = require("express-handlebars");
 const path = require("path");
 const nodemailer = require("nodemailer");
 
 const app = express();
 
-// View engine setup
-app.engine("handlebars", exphbs());
-app.set("view engine", "handlebars");
-
-// Static folder
-app.use("/dist", express.static(path.join(__dirname, "dist")));
-
 // Body Parser Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Set Static Folder
+app.use(express.static(`${__dirname}/dist`));
+
+// Index Route
 app.get("/", (req, res) => {
   res.render("contact");
 });
+
+const port = process.env.PORT || 5000;
 
 app.post("/send", (req, res) => {
   const output = `
@@ -70,4 +68,4 @@ app.post("/send", (req, res) => {
   });
 });
 
-app.listen(3000, () => console.log("Server started..."));
+app.listen(5000, () => console.log("Server started..."));
