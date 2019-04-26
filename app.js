@@ -34,12 +34,12 @@ app.post("/send", (req, res) => {
  `;
   // create reusable transporter object using the default SMTP transport
   let transporter = nodemailer.createTransport({
-    host: "smtp.gmail",
+    host: "github.com",
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: "mikey12349876@gmail.com", // generated ethereal user
-      pass: "survivor1" // generated ethereal password
+      user: "your.email.com", // generated ethereal user
+      pass: "yourpassword.com" // generated ethereal password
     },
     tls: {
       rejectUnauthorized: false
@@ -48,8 +48,8 @@ app.post("/send", (req, res) => {
 
   // setup email data with unicode symbols
   let mailOptions = {
-    from: '"Nodemailer Contact" <test@mike.com>', // sender address
-    to: "mikey12349876@gmail.com", // list of receivers
+    from: '"Nodemailer Contact" <contact.email.com>', // sender address
+    to: "your.email.com", // list of receivers
     subject: "Node Contact Request", // Subject line
     text: "Hello world?", // plain text body
     html: output // html body
@@ -64,7 +64,7 @@ app.post("/send", (req, res) => {
     console.log("Message sent: %s", info.messageId);
 
     console.log("Preview URL: %s", nodemailer.getTestMessageUrl(info));
-    res.render("contact", { msg: "Email has been sent" });
+    res.render("contact");
   });
 });
 
