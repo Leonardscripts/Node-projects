@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #113a4a;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #164a5f;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #164a5f;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(22, 74, 95, 0.9); }
 
 h1,
 h2,
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(24, 80, 103, 0.5); }
 
 a {
   color: #fff;
@@ -192,7 +192,7 @@ main {
   text-align: center; }
 
 .job {
-  background: #515151;
+  background: #1b5a74;
   padding: 0.5rem;
   border-bottom: #a30727 5px solid; }
 
@@ -230,7 +230,7 @@ ul {
   text-align: center; }
 
 .brand span {
-  color: #444; }
+  color: #164a5f; }
 
 .wrapper {
   box-shadow: 0 0 20px 0 rgba darkgray;
@@ -308,14 +308,14 @@ ul {
   color: #fff; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #8fcce5;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: set-text-color(#444);
+  background: #0c2a36;
+  color: set-text-color(#164a5f);
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
