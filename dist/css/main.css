@@ -160,7 +160,7 @@ main {
 
 .about-info {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 10px;
   grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
 
@@ -192,7 +192,7 @@ main {
   text-align: center; }
 
 .job {
-  background: #1b5a74;
+  background: #113a4a;
   padding: 0.5rem;
   border-bottom: #a30727 5px solid; }
 
