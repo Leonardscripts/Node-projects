@@ -1,5 +1,3 @@
-# Stacked_WebApps
+# Responive WebApp with Portfolio
 
-# Responive Business WebApp with Portfolio attatched
-
-# Freelance work & ongoing Projects
+# disclosed functionailty with ongoing projects
