@@ -295,7 +295,7 @@ ul {
     text-align: left; } }
 
 .btn, .btn-dark, .btn-light {
-  display: block;
+  display: inline-block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-bottom: 0.3rem; }
@@ -358,7 +358,7 @@ ul {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   main {
     padding: 2rem; }
     main #home h1 {
