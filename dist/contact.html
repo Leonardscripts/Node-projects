@@ -76,7 +76,7 @@
             <h3>Reach</h3>
             <p>Out</p>
 
-            <form>
+            <form action="POST" data-netlify="true">
               <p>
                 <label>Name</label>
                 <input type="text" name="name" />
@@ -97,6 +97,9 @@
                 <label>Message</label>
                 <textarea name="message" rows="5"></textarea>
               </p>
+              <div class="field">
+                <div data-netlify-recaptcha="true"></div>
+              </div>
               <p class="full">
                 <button type="submit">Submit</button>
               </p>
