@@ -1,3 +1,3 @@
-# Responive WebApp with Portfolio
+# Responive WebApp with Portfolio &copy;
 
-# disclosed functionailty with ongoing projects
+# disclosed and Upcoming projects
