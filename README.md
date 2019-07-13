@@ -1,3 +1,1 @@
-# Responive WebApp with Portfolio &copy;
-
-# disclosed and Upcoming projects
+# Responsive WebApp &trade; with Portfolio
