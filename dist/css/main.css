@@ -57,14 +57,14 @@
       height: 230px;
       background: url("../img/theme.jpeg");
       border-radius: 40%;
-      border: solid 3px #a30727; }
+      border: solid 3px #970623; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #a30727; }
+      color: #970623; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link.hover {
-      color: #a30727; }
+      color: #970623; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(22, 74, 95, 0.9); }
+      background: rgba(22, 74, 95, 0.7); }
 
 h1,
 h2,
@@ -141,7 +141,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #a30727; }
+  color: #970623; }
 
 main {
   padding: 4rem;
@@ -151,7 +151,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #a30727;
+        color: #970623;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -168,12 +168,12 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 40%;
-  border: #a30727 5px solid; }
+  border: #970623 5px solid; }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: #a30727 4px solid;
+  border-bottom: #970623 4px solid;
   text-align: center; }
 
 .job-1 {
@@ -188,13 +188,13 @@ main {
 
 .job-3 {
   grid-area: job3;
-  border-bottom: #a30727 3px solid;
+  border-bottom: #970623 3px solid;
   text-align: center; }
 
 .job {
   background: #113a4a;
   padding: 0.5rem;
-  border-bottom: #a30727 5px solid; }
+  border-bottom: #970623 5px solid; }
 
 .projects {
   display: grid;
@@ -205,7 +205,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #a30727;
+      border-color: #970623;
       transition: all 0.5s ease-out; }
 
 .container {
@@ -217,10 +217,10 @@ main {
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff;
   padding: 0.5rem 1.5rem;
-  background: #a30727;
-  color: set-text-color(#a30727); }
+  background: #970623;
+  color: set-text-color(#970623); }
   .container span {
-    color: set-text-color(#a30727); }
+    color: set-text-color(#970623); }
 
 ul {
   list-style: none;
@@ -300,8 +300,8 @@ ul {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #a30727;
-    color: set-text-color #a30727; }
+    background: #970623;
+    color: set-text-color #970623; }
 
 .btn-dark {
   background: black;
