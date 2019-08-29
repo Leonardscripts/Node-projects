@@ -1,117 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
-    />
 
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Stacked-WebApps</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
 
-  <body>
-    <header>
-      <div class="menu-btn">
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
-        <div class="btn-line"></div>
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Stacked-WebApps</title>
+</head>
+
+<body>
+  <header>
+    <div class="menu-btn">
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+      <div class="btn-line"></div>
+    </div>
+
+    <nav class="menu">
+      <div class="menu-branding">
+        <div class="portrait"></div>
       </div>
+      <ul class="menu-nav">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="work.html" class="nav-link">
+            Projects
+          </a>
+        </li>
+        <li class="nav-item current">
+          <a href="contact.html" class="nav-link">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-      <nav class="menu">
-        <div class="menu-branding">
-          <div class="portrait"></div>
+  <main id="contact">
+    <h1 class="sm-heading">
+      Reach out for a Free
+      <span class="text-secondary">Prototype & Estimate</span>
+    </h1>
+    <div class="container">
+      <h1 class="brand">
+        <span>Stacked</span> WebApps &trade;</h1>
+      <div class="wrapper animated rotateIn">
+        <div class="company-info">
+          <h3>Located</h3>
+          <ul>
+            <li>
+              <i class="fa fa-road"> </i> Commack, Long island</li>
+            <li>
+              <i class="fa fa-phone"> Connect for Details</i>
+            </li>
+            <li>
+              <i class="fa fa-envelope"> </i> Send A Message</li>
+          </ul>
         </div>
-        <ul class="menu-nav">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">
-              Home
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link">
-              About
-            </a>
-          </li>
-          <li class="nav-item">
-            <a href="work.html" class="nav-link">
-              Projects
-            </a>
-          </li>
-          <li class="nav-item current">
-            <a href="contact.html" class="nav-link">
-              Contact
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+        <div class="contact">
+          <h5>Reach Out</h5>
 
-    <main id="contact">
-      <h1 class="sm-heading">
-        Reach out for a Free
-        <span class="text-secondary">Prototype & Estimate</span>
-      </h1>
-      <div class="container">
-        <h1 class="brand"><span>Stacked</span> WebApps &trade;</h1>
-        <div class="wrapper animated rotateIn">
-          <div class="company-info">
-            <h3>Located</h3>
-            <ul>
-              <li><i class="fa fa-road"> </i> Commack, Long island</li>
-              <li><i class="fa fa-phone"> Connect for Details</i></li>
-              <li><i class="fa fa-envelope"> </i> Send A Message</li>
-            </ul>
-          </div>
-          <div class="contact">
-            <h5>Reach Out</h5>
+          <form action="/contact.html" method="post" name="form 1" data-netlify="true">
+            <p>
+              <label>Name</label>
+              <input type="text" name="name" />
+            </p>
 
-            <form
-              action="/contact.html"
-              method="post"
-              name="form 1"
-              data-netlify="true"
-            >
-              <p>
-                <label>Name</label>
-                <input type="text" name="name" />
-              </p>
+            <p>
+              <label>Email </label>
+              <input type="text" name="email" />
+            </p>
 
-              <p>
-                <label>Email Address</label>
-                <input type="text" name="email" />
-              </p>
+            <p class="full">
+              <label>Message</label>
+              <textarea name="message" rows="6"></textarea>
+            </p>
+            <div class="full">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
 
-              <p class="full">
-                <label>Message</label>
-                <textarea name="message" rows="6"></textarea>
-              </p>
-              <div class="full">
-                <div data-netlify-recaptcha="true"></div>
-              </div>
-
-              <p class="full">
-                <button type="submit">Submit</button>
-              </p>
-            </form>
-          </div>
+            <p class="full">
+              <button type="submit">Submit</button>
+            </p>
+          </form>
         </div>
       </div>
-    </main>
+    </div>
+  </main>
 
-    <footer id="main-footer">
-      Copyright &copy; 2018 all rights reserved
-    </footer>
+  <footer id="main-footer">
+    Copyright &copy; 2018 all rights reserved
+  </footer>
 
-    <script src="js/main.js"></script>
-  </body>
+  <script src="js/main.js"></script>
+</body>
+
 </html>

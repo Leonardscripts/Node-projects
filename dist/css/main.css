@@ -255,7 +255,10 @@ ul {
   grid-gap: 20px; }
 
 .contact form label {
-  display: block; }
+  margin: 0;
+  display: inline-block;
+  display: grid;
+  grid-template-columns: 1fr; }
 
 .contact form p {
   margin: 0;
