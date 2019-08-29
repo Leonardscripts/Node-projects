@@ -240,7 +240,7 @@ ul {
   padding: 1em; }
 
 .company-info {
-  background: #444;
+  background: #164a5f;
   border-radius: 60px; }
 
 .company-info h3,
@@ -271,7 +271,8 @@ ul {
   border: 1px solid #fff; }
 
 .contact form button {
-  background: #444;
+  background: #164a5f;
+  border-radius: 60px;
   border: 0;
   text-transform: uppercase; }
 
