@@ -85,4 +85,28 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  .contact form label {
+    margin: 0;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr; 
+    
+  }
+  
+  .contact form p {
+    margin: 0;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr ;
+    
+    
+  }
+  
+  .contact form .full {
+    grid-column: 1/3;
+    margin: 0;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: 1fr; 
+  }
 }
