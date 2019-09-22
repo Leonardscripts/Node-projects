@@ -55,7 +55,7 @@
     .menu-branding .portrait {
       width: 230px;
       height: 230px;
-      background: url("../img/theme.jpeg");
+      background: url("../img/theme1.png");
       border-radius: 40%;
       border: solid 3px #970623; }
   .menu .nav-item {
@@ -167,29 +167,39 @@ main {
 .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 40%;
-  border: #970623 5px solid; }
+  border-radius: 60px;
+  border: #970623 5px solid;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff; }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: #970623 4px solid;
-  text-align: center; }
+  border-bottom: #970623 5px solid;
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff; }
 
 .job-1 {
   grid-area: job1;
   border-bottom: #fff 3px solid;
-  text-align: center; }
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff; }
 
 .job-2 {
   grid-area: job2;
   border-bottom: #fff 3px solid;
-  text-align: center; }
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff; }
 
 .job-3 {
   grid-area: job3;
   border-bottom: #970623 3px solid;
-  text-align: center; }
+  text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff; }
 
 .job {
   background: #113a4a;

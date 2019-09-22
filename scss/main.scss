@@ -82,44 +82,58 @@ main {
     "bioimage bio bio"
     "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr);
+
 }
 
 .bio-image {
   grid-area: bioimage;
   margin: auto;
-  border-radius: 40%;
+  border-radius: 60px;
   border: $secondary-color 5px solid;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff;
+
 }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: $secondary-color 4px solid;
-  text-align: center;
+  border-bottom: $secondary-color 5px solid;text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff;
 }
 
 .job-1 {
   grid-area: job1;
   border-bottom: #fff 3px solid;
   text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff;
 }
 
 .job-2 {
   grid-area: job2;
   border-bottom: #fff 3px solid;
   text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff;
 }
 
 .job-3 {
   grid-area: job3;
   border-bottom: $secondary-color 3px solid;
   text-align: center;
+  border-radius: 60px;
+  box-shadow: 0 0 20px 0 #fff;
 }
 
 .job {
-  background: darken($primary-color, 5);
+  background: darken($primary-color, 5px);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
+  
+  
+ 
 }
 
 // Work/Projects
@@ -131,6 +145,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
+   
 
     &:hover {
       opacity: 0.5;
