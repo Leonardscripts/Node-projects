@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #113a4a;
+    background: #284f5e;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #164a5f;
+    background: #305e70;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #164a5f;
+  background: #305e70;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(22, 74, 95, 0.7); }
+      background: rgba(48, 94, 112, 0.7); }
 
 h1,
 h2,
@@ -129,7 +129,8 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(24, 80, 103, 0.5); }
+    background: rgba(51, 100, 119, 0.5);
+    border-radius: 60px; }
 
 a {
   color: #fff;
@@ -202,7 +203,7 @@ main {
   box-shadow: 0 0 20px 0 #fff; }
 
 .job {
-  background: #113a4a;
+  background: #284f5e;
   padding: 0.5rem;
   border-bottom: #970623 5px solid; }
 
@@ -240,7 +241,7 @@ ul {
   text-align: center; }
 
 .brand span {
-  color: #164a5f; }
+  color: #305e70; }
 
 .wrapper {
   box-shadow: 0 0 20px 0 rgba darkgray;
@@ -250,7 +251,7 @@ ul {
   padding: 1em; }
 
 .company-info {
-  background: #164a5f;
+  background: #305e70;
   border-radius: 60px; }
 
 .company-info h3,
@@ -291,7 +292,7 @@ ul {
   border: 1px solid #fff; }
 
 .contact form button {
-  background: #164a5f;
+  background: #305e70;
   border-radius: 60px;
   border: 0;
   text-transform: uppercase; }
@@ -329,14 +330,14 @@ ul {
   color: #fff; }
 
 .btn-light {
-  background: #8fcce5;
+  background: #bdd8e3;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #0c2a36;
-  color: set-text-color(#164a5f);
+  background: #21404c;
+  color: set-text-color(#305e70);
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
@@ -379,7 +380,7 @@ ul {
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   main {
     padding: 2rem; }
     main #home h1 {

@@ -1,4 +1,4 @@
-$primary-color: rgb(22, 74, 95);
+$primary-color: rgb(48, 94, 112);
 $secondary-color: #970623;
 $show-home-image: true;
 $home-image: url(../img/photo-1481386642130-4a31ef3bf00d.jpeg);
@@ -31,7 +31,7 @@ $background-opacity: 0.7;
 
 // Media Query Mixins
 @mixin mediaSm {
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     @content;
   }
 }
