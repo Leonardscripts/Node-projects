@@ -99,7 +99,7 @@ main {
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: $secondary-color 5px solid;text-align: center;
+  border-bottom: $secondary-color 5px;
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff;
 }
@@ -132,10 +132,9 @@ main {
   background: darken($primary-color, 5px);
   padding: 0.5rem;
   border-bottom: $secondary-color 5px solid;
-  
-  
- 
-}
+  text-align: center;
+  border-radius: 60px;
+  }
 
 // Work/Projects
 .projects {

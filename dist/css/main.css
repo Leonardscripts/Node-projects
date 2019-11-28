@@ -176,8 +176,7 @@ main {
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: #970623 5px solid;
-  text-align: center;
+  border-bottom: #970623 5px;
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff; }
 
@@ -205,7 +204,9 @@ main {
 .job {
   background: #284f5e;
   padding: 0.5rem;
-  border-bottom: #970623 5px solid; }
+  border-bottom: #970623 5px solid;
+  text-align: center;
+  border-radius: 60px; }
 
 .projects {
   display: grid;
