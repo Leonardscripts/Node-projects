@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #284f5e;
+    background: #265b70;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #305e70;
+    background: #2d6b83;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 230px;
       background: url("../img/theme1.png");
       border-radius: 40%;
-      border: solid 3px #970623; }
+      border: solid 3px #920521; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #970623; }
+      color: #920521; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link.hover {
-      color: #970623; }
+      color: #920521; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #305e70;
+  background: #2d6b83;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(48, 94, 112, 0.7); }
+      background: rgba(45, 107, 131, 0.7); }
 
 h1,
 h2,
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(51, 100, 119, 0.5);
+    background: rgba(48, 113, 139, 0.5);
     border-radius: 60px; }
 
 a {
@@ -142,7 +142,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #970623; }
+  color: #920521; }
 
 main {
   padding: 4rem;
@@ -152,7 +152,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #970623;
+        color: #920521;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -169,14 +169,14 @@ main {
   grid-area: bioimage;
   margin: auto;
   border-radius: 60px;
-  border: #970623 5px solid;
+  border: #920521 5px solid;
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff; }
 
 .bio {
   grid-area: bio;
   font-size: 1.5rem;
-  border-bottom: #970623 5px;
+  border-bottom: #920521 5px;
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff; }
 
@@ -196,15 +196,15 @@ main {
 
 .job-3 {
   grid-area: job3;
-  border-bottom: #970623 3px solid;
+  border-bottom: #920521 3px solid;
   text-align: center;
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff; }
 
 .job {
-  background: #284f5e;
+  background: #265b70;
   padding: 0.5rem;
-  border-bottom: #970623 5px solid;
+  border-bottom: #920521 5px solid;
   text-align: center;
   border-radius: 60px; }
 
@@ -217,7 +217,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #970623;
+      border-color: #920521;
       transition: all 0.5s ease-out; }
 
 .container {
@@ -229,10 +229,10 @@ main {
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff;
   padding: 0.5rem 1.5rem;
-  background: #970623;
-  color: set-text-color(#970623); }
+  background: #920521;
+  color: set-text-color(#920521); }
   .container span {
-    color: set-text-color(#970623); }
+    color: set-text-color(#920521); }
 
 ul {
   list-style: none;
@@ -242,7 +242,7 @@ ul {
   text-align: center; }
 
 .brand span {
-  color: #305e70; }
+  color: #2d6b83; }
 
 .wrapper {
   box-shadow: 0 0 20px 0 rgba darkgray;
@@ -252,7 +252,7 @@ ul {
   padding: 1em; }
 
 .company-info {
-  background: #305e70;
+  background: #2d6b83;
   border-radius: 60px; }
 
 .company-info h3,
@@ -293,7 +293,7 @@ ul {
   border: 1px solid #fff; }
 
 .contact form button {
-  background: #305e70;
+  background: #2d6b83;
   border-radius: 60px;
   border: 0;
   text-transform: uppercase; }
@@ -323,22 +323,22 @@ ul {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #970623;
-    color: set-text-color #970623; }
+    background: #920521;
+    color: set-text-color #920521; }
 
 .btn-dark {
   background: black;
   color: #fff; }
 
 .btn-light {
-  background: #bdd8e3;
+  background: #c4e0eb;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #21404c;
-  color: set-text-color(#305e70);
+  background: #204c5d;
+  color: set-text-color(#2d6b83);
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
