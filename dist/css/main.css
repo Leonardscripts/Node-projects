@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #265b70;
+    background: #034863;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #2d6b83;
+    background: #045a7c;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #2d6b83;
+  background: #045a7c;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(45, 107, 131, 0.7); }
+      background: rgba(4, 90, 124, 0.7); }
 
 h1,
 h2,
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(48, 113, 139, 0.5);
+    background: rgba(4, 97, 134, 0.5);
     border-radius: 60px; }
 
 a {
@@ -202,7 +202,7 @@ main {
   box-shadow: 0 0 20px 0 #fff; }
 
 .job {
-  background: #265b70;
+  background: #034863;
   padding: 0.5rem;
   border-bottom: #920521 5px solid;
   text-align: center;
@@ -242,7 +242,7 @@ ul {
   text-align: center; }
 
 .brand span {
-  color: #2d6b83; }
+  color: #045a7c; }
 
 .wrapper {
   box-shadow: 0 0 20px 0 rgba darkgray;
@@ -252,7 +252,7 @@ ul {
   padding: 1em; }
 
 .company-info {
-  background: #2d6b83;
+  background: #045a7c;
   border-radius: 60px; }
 
 .company-info h3,
@@ -293,7 +293,7 @@ ul {
   border: 1px solid #fff; }
 
 .contact form button {
-  background: #2d6b83;
+  background: #045a7c;
   border-radius: 60px;
   border: 0;
   text-transform: uppercase; }
@@ -331,14 +331,14 @@ ul {
   color: #fff; }
 
 .btn-light {
-  background: #c4e0eb;
+  background: #84d9fb;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #204c5d;
-  color: set-text-color(#2d6b83);
+  background: #02364b;
+  color: set-text-color(#045a7c);
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
