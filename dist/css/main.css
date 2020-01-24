@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #034863;
+    background: #124f68;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #045a7c;
+    background: #16607e;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -94,7 +94,7 @@
   box-sizing: border-box; }
 
 body {
-  background: #045a7c;
+  background: #16607e;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(4, 90, 124, 0.7); }
+      background: rgba(22, 96, 126, 0.7); }
 
 h1,
 h2,
@@ -129,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(4, 97, 134, 0.5);
+    background: rgba(24, 103, 135, 0.5);
     border-radius: 60px; }
 
 a {
@@ -171,7 +171,8 @@ main {
   border-radius: 60px;
   border: #920521 5px solid;
   border-radius: 60px;
-  box-shadow: 0 0 20px 0 #fff; }
+  box-shadow: 0 0 20px 0 #fff;
+  padding: 0.8rem; }
 
 .bio {
   grid-area: bio;
@@ -202,7 +203,7 @@ main {
   box-shadow: 0 0 20px 0 #fff; }
 
 .job {
-  background: #034863;
+  background: #124f68;
   padding: 0.5rem;
   border-bottom: #920521 5px solid;
   text-align: center;
@@ -214,7 +215,8 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    padding: 1.0rem; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #920521;
@@ -242,7 +244,7 @@ ul {
   text-align: center; }
 
 .brand span {
-  color: #045a7c; }
+  color: #16607e; }
 
 .wrapper {
   box-shadow: 0 0 20px 0 rgba darkgray;
@@ -252,11 +254,12 @@ ul {
   padding: 1em; }
 
 .company-info {
-  background: #045a7c;
-  border-radius: 60px; }
+  background: #16607e;
+  border-radius: 60px;
+  box-shadow: #fff; }
 
 .company-info h3,
-.company-infoul {
+.company-info ul {
   text-align: center;
   margin: 0 0 1rem 0; }
 
@@ -293,7 +296,7 @@ ul {
   border: 1px solid #fff; }
 
 .contact form button {
-  background: #045a7c;
+  background: #16607e;
   border-radius: 60px;
   border: 0;
   text-transform: uppercase; }
@@ -331,14 +334,14 @@ ul {
   color: #fff; }
 
 .btn-light {
-  background: #84d9fb;
+  background: #a4d9ef;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #02364b;
-  color: set-text-color(#045a7c);
+  background: #0e3f53;
+  color: set-text-color(#16607e);
   height: 60px; }
 
 @media screen and (min-width: 1171px) {

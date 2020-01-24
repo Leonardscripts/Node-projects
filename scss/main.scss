@@ -93,7 +93,7 @@ main {
   border: $secondary-color 5px solid;
   border-radius: 60px;
   box-shadow: 0 0 20px 0 #fff;
-
+  padding: 0.8rem;
 }
 
 .bio {
@@ -145,7 +145,7 @@ main {
   img {
     width: 100%;
     border: 3px #fff solid;
-   
+    padding: 1.0rem;
 
     &:hover {
       opacity: 0.5;
@@ -195,9 +195,10 @@ ul {
 .company-info {
   background: $primary-color;
   border-radius: 60px;
+  box-shadow: #fff;
 }
 .company-info h3,
-.company-infoul {
+.company-info ul {
   text-align: center;
   margin: 0 0 1rem 0;
 }
