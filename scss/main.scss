@@ -11,7 +11,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Pridi UI";
   line-height: 1.6;
   padding: 1em;
 }
@@ -109,7 +109,7 @@ main {
   border-bottom: #fff 3px solid;
   text-align: center;
   border-radius: 60px;
-  box-shadow: 0 0 20px 0 #fff;
+  box-shadow: 0 0 20px 0 $secondary-color;
 }
 
 .job-2 {
@@ -125,7 +125,7 @@ main {
   border-bottom: $secondary-color 3px solid;
   text-align: center;
   border-radius: 60px;
-  box-shadow: 0 0 20px 0 #fff;
+  box-shadow: 0 0 20px 0 $secondary-color ;
 }
 
 .job {
@@ -306,6 +306,6 @@ ul {
   color: set-text-color($primary-color);
   height: 60px;
   border-radius: 60px;
-  box-shadow: #fff;
+  box-shadow:0 0 20px 0 ($secondary-color);
 }
 @import "mobile";
