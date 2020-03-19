@@ -342,7 +342,9 @@ ul {
   padding: 1rem;
   background: #0e3f53;
   color: set-text-color(#16607e);
-  height: 60px; }
+  height: 60px;
+  border-radius: 60px;
+  box-shadow: #fff; }
 
 @media screen and (min-width: 1171px) {
   .projects {
